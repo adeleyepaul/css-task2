@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#container{
+    width: 1024px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 50px;
+    font-size: 30px;
+}
+
+.likes{
+    padding: 25px;
+    margin-right: 50px;
+    color: green;
+}
+
+.dislikes{
+    color: blue;
+}
+
+h3{
+    text-decoration: underline;
+    color: black;
+}
+
+span{
+    color: red;
+}
